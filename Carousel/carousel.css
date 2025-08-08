@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+.btn{
+    cursor: pointer;
+    margin: 2%;
+}
