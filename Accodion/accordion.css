@@ -1,0 +1,16 @@
+.accordion-item{
+    background-color: rgb(231, 225, 225);
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.accordion-title{
+    cursor: pointer;
+    padding: 1% ;
+}
+.accordion-desc{
+    display: none;
+    background-color: rgb(134, 132, 132);
+}
+.accordion-desc.active{
+    display: block;
+}
