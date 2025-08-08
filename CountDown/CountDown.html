@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CountDown.css">
+    <title>Count Down</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Counter</h1>
+        <div class="inputs">
+            <input type="number" name="InputSeconds" id="InputSeconds" class="InputSeconds" placeholder="Input Seconds">
+        </div>
+        <div class="buttons">
+            <button class="btn start" id="btn-start">Start</button>
+            <button class="btn stop" id="btn-pause">Pause</button>
+            <button class="btn resume" id="btn-resume">Resume</button>
+            <button class="btn reset" id="btn-reset">Reset</button>
+        </div>
+        <div class="display">
+            <h1><span id="displayHours">00</span>:
+                <span id="displayMinutes">00</span>:
+                <span id="displaySeconds">00</span>
+            </h1>
+        </div>
+    </div>
+<script src="CountDown.js"></script>
+</body>
+</html>

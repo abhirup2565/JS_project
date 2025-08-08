@@ -1,0 +1,16 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main
+{
+    background-color: yellow;
+    width: 75%;
+    height: 50%;
+}
+.btn
+{
+    margin: 2%;
+}
