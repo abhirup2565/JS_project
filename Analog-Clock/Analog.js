@@ -8,7 +8,8 @@ setInterval(()=>{
     const mins = now.getMinutes(); 
     const seconds = now.getSeconds();  
 
-    const hoursRotate = Number((hours%12)*30 + (mins/60)*5);
+    const hoursRotate = Number((hours%12)*30 + (mins/60)*30);
+    console.log(hoursRotate);
     const minsRotate = Number(mins*6);
     const secondsRotate = Number(seconds*6);
 
