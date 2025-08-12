@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+<body>
+    <form id="contact-form">
+        <div class="row">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" style="width: 100%;" name="first_name">
+            <span id="error_first_name"></span>
+        </div>
+        
+        <div class="row">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" style="width: 100%;" name="last_name">
+            <span id="error_last_name"></span>
+        </div>
+
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email" style="width: 100%;" name="email">
+            <span id="error_email"></span>
+        </div>
+
+        <div class="row">
+            <label for="feedback">Feedback</label>
+            <input type="text" id="feedback" style="width: 100%;" name="feedback">
+            <span id="error_feedback"></span>
+        </div>
+
+        <div class="row">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+<script src="form.js"></script>
+</body> 
+</html>
