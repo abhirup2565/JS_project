@@ -1,0 +1,13 @@
+.post{
+ padding: 2%;
+}
+.postTitle{
+    padding: 2%;
+    background-color: rgb(168, 164, 164);
+    color: blue;
+}
+.postDesc{
+    padding: 2%;
+    background-color: rgba(100, 98, 98, 0.922);
+    color: black;
+}
