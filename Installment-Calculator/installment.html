@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="installment.css">
+    <title>Installment-Calculator</title>
+</head>
+<body>
+    <form id="main-form">
+        <div id="principalContainer" class="formEle">
+            <label>Principal(Rs)</label>
+            <input type="text" id="principal-container">
+            <span id="principalError" class="error"></span>
+        </div>
+
+        <div id="rateContainer" class="formEle">
+            <label>Rate%</label>
+            <input type="text" id="rate">
+            <span id="rateError" class="error"></span>
+        </div>
+
+        <div id="timePeriodContainer" class="formEle">
+            <label>Time Period(in Years)</label>
+            <input type="text" id="time-period">
+            <span id="timePeriodError" class="error"></span>
+        </div>
+
+        <button id="Submit-button">Submit</button>
+    </form>
+    <div id="installment-calculated"></div>
+
+    <Script src="installment.js"></Script>
+</body>
+</html>

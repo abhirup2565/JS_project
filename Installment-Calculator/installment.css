@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+#main-form{
+    background-color: whitesmoke;
+    height: calc(100vh - 65px);
+    width: 100%;
+    margin: 5px;
+}
+
+input{
+    border: 1px solid black;
+}
+.formEle{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#submit-button{
+    margin: 10px;
+}

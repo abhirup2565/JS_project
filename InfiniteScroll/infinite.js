@@ -19,11 +19,10 @@ window.addEventListener('load',()=>{generateItems();})
 
 const intersectionObserver  = new IntersectionObserver((entries)=>{
     entries.forEach(entry => {
-        generateItems();
-        // if(entry.isIntersecting)
-        // {
-        //     generateItems();
-        // }
+        if(entry.isIntersecting)
+        {
+            generateItems();
+        }
     });
 })
 
