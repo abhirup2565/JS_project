@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="main">
+        <H1>This project displays modal</H1>
+        <button onclick='handleOpenModal()'>Modal</button>
+    </div>
+    <div class="main-modal">
+            <div class="modal">
+            <div class="modal-header">
+                <div class="header-left">
+                    This is modal header
+                </div>
+                <div class="header-right">
+                    <button onclick='handleCloseModal()'>close</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                This is modal Body
+            </div>
+        </div>
+    </div>
+    
+    <Script src="modal.js"></Script>
+</body>
+</html>
