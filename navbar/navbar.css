@@ -1,0 +1,22 @@
+.clicked{
+    display: block;
+}
+.navbar
+{
+    display: block;
+}
+#navbar-ul
+{
+    display: flex;
+    flex-direction: row;
+}
+#navbar-li
+{
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+.unclicked
+{
+    display: none;
+}
