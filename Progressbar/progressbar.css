@@ -1,0 +1,24 @@
+*{
+    overflow: hidden;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.progressBar
+{
+    width: 80%;
+    height: 5%;
+    background-color: white;
+}
+.progress
+{
+    height: 100%;
+    background-color: rgb(241, 50, 82)  ;
+
+}
