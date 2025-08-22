@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+#main-div{
+    background-color: black;
+    height: max-content;
+    width: max-content;
+}
+#star-holder{
+    display: flex;
+    flex-direction: row;    
+}
+.star-icon{
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer
+}
