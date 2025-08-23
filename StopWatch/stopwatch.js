@@ -19,6 +19,7 @@ lapsBtn.addEventListener('click',()=>{lapsWatch()});
 stopBtn.addEventListener('click',()=>{stopWatch()});
 resetBtn.addEventListener('click',()=>{resetWatch()});
 
+window.addEventListener('load',()=>{updateDisplay()})
 //helper funcions
 const startWatch = ()=>
 {
