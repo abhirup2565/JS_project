@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+#main-div{
+    background-color: whitesmoke;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+input{
+    border: 1px solid black;
+}
+.formElem{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#submit-button{
+    margin: 10px;
+}
+#temp-calculated
+{
+    margin: 10px;
+    padding: 10px;
+}
