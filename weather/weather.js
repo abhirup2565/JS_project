@@ -19,7 +19,7 @@ const getLocation = () => {
 
 const getWeatherDetail = async (lat, lng) =>{
     try{
-        const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=96d173ec6cdc94774776edf3be59a719`)
+        const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=#`)
         const retData = await data.json()
         console.log(retData);
         return retData
