@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Employee Database</title>
+</head>
+<body>
+    <div class="heading">
+        <H1>Employee DataBase Management</H1>
+        <button id="add-btn">Add Employee</button>
+        <div class="addEmployee">   
+        
+        <form class="addEmployee__form">
+        <H1>Add Employees Details</H1>
+        <label name="FirstName">First Name</label>
+        <input name="firstname" type="text">
+
+        <label name="LastName">Last Name</label>
+        <input name="lastname" type="text">
+
+        <label name="Email">Email</label>
+        <input name="email" type="text">
+
+        <label name="contact">Contact</label>
+        <input name="contactNumber" type="text">
+
+        <label name="dob">D.O.B</label>
+        <input name="dob" type="date">
+
+        <label name="Salary">Salary</label>
+        <input name="salary" type="text">
+
+        <label name="Address">Address</label>
+        <input name="Address" type="text">
+
+        <button type="submit">add</button>
+        </form>
+    </div>
+    </div>
+    
+    <div class="EmployeeData">
+        <div class="EmployeeData__List">
+            <Span class="EmployeeData__List--Title">Name</Span>
+            <Span class="EmployeeData__List--Name"></Span>
+        </div>
+        <div class="EmployeeData__Single">
+            <div class="EmployeeData__Single--image">
+                
+            </div>
+            <div class="EmployeeData__Single--info"></div>
+        </div>
+    </div>
+</body>
+<Script src="index.js"></Script>
+</html>
